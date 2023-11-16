@@ -1,0 +1,128 @@
+.ahead {
+    max-width: 100%;
+    height: 47px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 14px;
+    color: #1c1c1c;
+    font-family: 'Cairo', sans-serif;
+    font-weight: bold;
+    background-color: #f5f5f5;
+
+    .mfr {
+        width: 500px;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+
+        .mail {
+            i {
+                margin-right: 10px;
+            }
+
+            width: 150px;
+            border-right: 1px solid #1c1c1c25;
+        }
+    }
+
+
+
+    .clck {
+        width: 500px;
+        height: 47px;
+        align-items: center;
+        display: flex;
+        justify-content: space-evenly;
+
+        .icons {
+            width: 150px;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            border-right: 1px solid #1c1c1c25;
+            height: 30px;
+
+
+        }
+
+        .language {
+            width: 150px;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            border-right: 1px solid #1c1c1c25;
+            height: 30px;
+
+            img {
+                width: 30px;
+                height: 15px;
+            }
+
+            select {
+                border: none;
+                background-color: #f5f5f5;
+            }
+        }
+
+        .login {
+
+            .fa-solid.fa-user {
+                margin-right: 10px;
+            }
+        }
+    }
+}
+
+.nav {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .navbar {
+        width: 1140px;
+        height: 80px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+
+        .logo {
+        
+
+            img {
+                padding-right: 30px;
+            }
+        }
+
+        .headermenu {
+            
+
+            ul {
+                display: flex;
+                flex-direction: row;
+
+
+                li {
+                    margin: 20px;
+                }
+            }
+        }
+
+        .headercart {
+            width: 250px;
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+
+            i {}
+
+            p {
+                span {}
+            }
+        }
+
+    }
+}
